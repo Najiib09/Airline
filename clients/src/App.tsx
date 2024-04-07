@@ -8,6 +8,7 @@ import DashboardPage from './pages/home/Dashboard'
 import Airlines from '../src/pages/admin/airlines/Airlines'
 import SignUp from './pages/login/SignUp'
 import AdminD from './pages/admin/adminDshbrd/AdminD'
+import AddNewAirLine from './pages/admin/airlines/AddNewAirLine'
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="/signUp" element={<SignUp/>} />
       <Route path="/AdminDashboard" element={<AdminD/>} />
       <Route path="/admin/airlines" element={<Airlines/>} />
+      <Route path="/admin/airlines/create" element={<AddNewAirLine/>} />
       
 
 

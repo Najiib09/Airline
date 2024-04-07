@@ -3,7 +3,7 @@ import React from "react";
 import AdminSidebar from "../../../component/Sidebar";
 import Header from "../../../component/Header";
 
-function AddNewAirLine() {
+function NewAirpot() {
   return (
        
        <>
@@ -13,14 +13,9 @@ function AddNewAirLine() {
       
       <AdminSidebar/>
       
-        <div className="overflow-x-auto  ml-[9%] w-[90%] mt-48  ">
+        <div className="overflow-x-auto  ml-[9%] w-[90%]  ">
       
-          <div className=" w-full table-fixed h-auto mt-6  pl-56">
-            <div className=" mb-6">
-
-          <h1 className=" font-semibold size-6 bg-green-500 text-white">Add New city</h1>
-          <p className=" font-light  ">use the form below to add new city </p>
-            </div>
+          <div className=" w-full table-fixed h-auto mt-6">
           <form className="w-full max-w-lg">
   <div className="flex flex-wrap -mx-3 mb-6">
     <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -56,4 +51,4 @@ function AddNewAirLine() {
   );
 }
 
-export default AddNewAirLine;
+export default NewAirpot;

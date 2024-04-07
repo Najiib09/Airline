@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
    <>
-   <header className=" py-2 bg-[#110707]   px-24 flex  w-full justify-between items-center  z-40 ">
+   <header className=" rounded-full fixed top-0 left-0 py-2 bg-[#5af8b6]   px-24 flex  w-[95%] mx-20 justify-between items-center  z-40 ">
         <h2 className=" font-extrabold  "> Admin Dashborad </h2>
 
         <nav className=" flex  list-none gap-7 font-semibold">
